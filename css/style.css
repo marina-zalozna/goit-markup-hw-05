@@ -125,6 +125,7 @@ h3 {
 
 .nav-list .link.current {
     color: var(--accent-color);
+    padding-bottom: 28px;
 }
 
 .link.current::after {
@@ -137,7 +138,7 @@ h3 {
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    color: var(--accent-color);
+    background-color: var(--accent-color);
 }
 .nav .contact {
     color: var(--text-color);
@@ -693,10 +694,24 @@ h3 {
     position: absolute;
     top: 8px;
     right: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+
+.icon-modal {
+    width: 11px;
+    height: 11px;
+    fill:#000000;
 }
